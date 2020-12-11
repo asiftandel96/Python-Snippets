@@ -1,0 +1,8 @@
+GET-Visible in the URL
+POST-Not visible in the URL because it is in the body.Secure
+
+static folder-css
+template-html file
+
+Doubt:
+postman 

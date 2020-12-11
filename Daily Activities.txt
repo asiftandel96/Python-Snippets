@@ -1,0 +1,335 @@
+
+[13th Nov]
+1.Python Iterators,Decorators,Generators(Understanding the Concepts)
+
+[14th Nov]
+1.Python AdvancedOperationOfDict
+2.Python Regular Expression
+3.Python Lambda Functions
+
+[15th Nov]
+1.Python map and Filter Function
+2.Python Exception Handling
+
+[16th Nov]
+Revision of all the concepts done until now
+[17,18,19 Nov]
+
+[17th Nov]
+Exception Handling
+
+[19th Nov]
+
+5:00pm-9:00pm-4 hr
+
+9:40pm-12:40pm-3 hr
+
+DateTime Exercise
+Python AdvanceOperDict(Dict Comprehension)
+Regular Expression
+Revision of all the Topics
+
+20th Nov:-
+5:30pm-8:30pm-3 hr
+
+10:00pm-12:00am-2 hr
+Numpy[3 hr]
+[21st Nov]
+
+7:00am-10:00am-3 hr
+
+3:00-5:00pm-2 hr
+
+7:30pm-9:00pm-1.5 hr
+
+9:40pm-11:40pm-2 hr
+
+[22nd Nov]
+Pandas
+
+1:30pm-3:00pm-1.5 hr(Small Portion Of Numpy)
+
+3:00pm-5:00pm-2 hr(Pandas)
+
+7:30pm-9:00pm-1.5 hr(Pandas)
+
+9:30pm-12:30pm-3 hr(Pandas)
+
+[23nd Nov]
+Pandas
+
+5:00pm-9:00pm- 4hr
+
+9:45pm-11:45pm- 2 hr
+
+[24th Nov]
+
+
+
+
+Pandas
+
+[25th Nov]
+
+Pandas
+
+Doubt:
+1)Multi-Index in Pandas DataFrame
+
+1:30pm-3:00pm
+
+3:30pm-5:00pm
+
+5:30pm-9:00pm-
+
+9:45pm-11:45pm
+
+
+[26th Nov]
+Doubt:-
+1.DataFrame Styling
+2.Multi-Index in Pandas DataFrame
+Today Agenda:-
+1)Solving Case Studies and Exercises as follows to improve the skills  of Pandas and Numpy.
+2)Be More Efficient while Studying
+Pandas
+8:30am-10:30am
+1:30pm-3:00pm
+3:30pm-5:00pm
+5:30pm-8:30pm
+10:00pm-12:00am
+
+[27th Nov]
+Tomorrow Agenda:-
+Doubt:-
+What is the Difference between Tidy Data,Wide and Panel Data.
+
+Pandas
+
+8:30am-10:30am
+
+1:30pm-2:30pm
+
+3:00pm-5:00pm
+
+5:30pm-9:00pm
+
+9:45pm-11:45pm
+
+[28th Nov]-10 hr/day
+Agenda:-
+Matplotlib and Seaborn
+[29th Nov]
+1)Learning Scikit-Learn 
+2)Combining Knowledge of Pandas,Matplotlib and Seaborn in Analysing,Exploring the Data
+[30th Nov]
+
+Combining Knowledge of Pandas,Matplotlib and Seaborn to explore the data and analysing insight about the data
+
+[1st Dec](10 hr/day)
+Tomorrow Agenda:-
+Working with Seaborn and Plotly
+
+4:15pm-6:15pm-(Working With Plotly)
+
+7:10pm-9:10pm(Seaborn Tutorial)
+
+10:00pm-12:00am(Seaborn Library)
+[2st Dec](10 hr/day)
+Tommorrow Agenda:-
+Feature Engineering 
+5:30pm-9:00pm
+10:00pm-12:30am
+[3th Dec]
+Feature Engineering
+[4th Dec]
+[5th Dec]
+Exploratory Data Analysis
+[6th Dec]
+Working with Scikit-Learn
+[7th Dec
+[from 25th Nov](Minimum 12 hr/day)
+7:30am-10:30am- 3hr
+10:40am-11:40am-Idle Time(This should be utilized Properly) (1 hr)
+2:00pm-3:00pm-1 hr
+3:30pm-5:00pm-1.5 hr
+5:30pm-9:00pm- 4 hr
+9:45pm-11:45pm-2 hr
+
+
+(8st Dec-14th Dec-Linear Regression)
+Agenda:-
+2 Days-Theoretical Understanding(6 hr/day)
+4 Days-Doing Pratical Implementation(Take 2 case studies)(6 hr/day)
+15th -21 Dec-Logistic Regression
+2 Days-Theoretical Understanding
+4 Days-Pratical Implementation(take 2 case Studies)( 6 hr/day)
+22th Dec-25th Dec-KNN Algorithms
+1 Days-Theoretical Understanding
+3 Days-Pratical Implementation(take 2 case Studies)(6 hr/day)
+26th Dec-31th Dec-Decision Tree 
+2 Days-Theoretical Understanding
+4 Days-Pratical Implementation(take 3 case Studies)(6 hr/day)
+1th-8th Jan(Random Forest)
+2 Days-Theoretical Understanding
+5 Days-Pratical Implementation(take 2 case studies)(6 hr/day)
+
+9th Jan-18th Jan-UnSuperVised Learning(10 Days)
+5 Days(k-means)
+3 Days(Hierarchical Clustering)
+2 Days(DBSCAN Clustering)
+19th Jan-31st Jan-Projects(End to End Project with Docker Implementation and deploying the Application on AWS)-13 Days
+Projects-(8 hr/day)
+Interview Preparation(2 hr/day)
+NLP Projects(2 hr/day)
+(February,March,April-Most Crucial Month)
+
+Timing(From February):
+
+5:00am-9:00am(Interview Preparation)
+
+9:00am-10:00am(Bathing)
+
+11:00am-12:30pm-Apply Time
+
+1:00pm-3:00pm
+
+3:30pm-5:00pm
+
+5:30pm-9:00pm
+
+9:45pm-11:45pm
+
+[1st Feb - 5th Feb]-CV Building
+[5th Feb-28th Feb]-Every Day Interview Preparation
+The actual struggle start from here.So be ready to face the truth.
+Morning:-[1st Feb-28th Feb]
+
+Major Goals of this Month
+
+1.Updating Github Profile with all the documentation of the Project
+2.Updating LinkedIn Profile
+3.Making Different Project and Updating the Project in your Resume with End-to-End Pipeline
+4.Working on Deep Learning Projects and Machine Learning Projects
+
+Wake up at 5:15 am
+
+5:30am-9:00am-(Interview Preparation)
+
+9:00am-10:00am-(Bathing)
+
+5:00pm-9:00pm-(Project Work)
+
+9:45pm-11:45pm-(Deep Learning)-60 hr/3 month
+
+
+1.Go for Internship
+2.Full-Time Job
+
+1st Feb-3th Feb-CV Building Session
+
+4th Feb-28th Feb-Ready for the Interview(Every Day-5 hr/day-Interview Preparation 1 hr/day-Updating the CV 4 hr/day-Making Different Projects)
+
+NLP:-(240 hr/2 Month)-60 Days(Covering Naive Bayes Algorithm and Time-Series Algorithm) (15th Nov)
+1st-5th Dec -NLP Basics(11 Days)
+6 Dec-20 Dec-Covering Naive Bayes Algorithms and Solve NLP UseCases(10 Days) and Solve More UseCases related to NLP 
+21 Dec-10 Jan-Understanding Deep Learning Concepts(ANN,CNN,RNN)-19 Days
+10 Jan-31st Jan-Implementing NLP with Deep Learning(also 4  Projects)-21st Days
+Goals:-
+4 Project
+
+SQL(1 hr/day)-30 hr
+SQL-Basics Of SQL
+Connecting SQL with Python
+MongoDB(1 hr/day)-30 hr
+Communication Skills(1 hr/day)
+Flask Framework(1 hr/day) after 1 months
+Web FrameWork Like Flask and Deployment Services Like AWS,Heroku
+
+
+Machine Learning Algorithms:-
+1)Linear Regression[1]
+2)Logistic Regression[2]
+3)KNN
+4)Decision Trees[3]
+5)Random Forest[4]
+6)Ensemble Techniques Like AdaBoost,XGBoost and CatBoost
+7)Time Series[6]
+8)Naive Bayes[5]
+9)K-means Clustering[7]
+10)Hierarchical Clustering[8]
+11)DBSCAN Clustering[9]
+12)Market Basket Analysis
+12)PCA
+
+Deep Learning:-
+1)ANN
+2)CNN
+3)RNN
+4)RNN LSTM
+5)GRU
+6)Other
+
+
+SQL (1 hr/day)
+Communication Skills(1 hr/day)
+(Machine Learning)
+5th Dec-10th Dec-Linear Regression(6 Days)
+
+11th -17th Dec-Logistic Regression(7 Days)
+
+18th-21st Dec-KNN(4 Days) 
+
+22th Dec-28th Dec-Decision Trees(7 Days)
+
+29th Dec-4th Jan-Random Forest(7 Days)
+
+5th Jan-14th Jan-UnSuperVised Learning(k-means,Hierarchical Clustering,DBSCAN Clustering)-10 Days
+
+15th Jan-31st Jan-Projects(16 Days)
+
+1st Feb-5th Feb-CV Building 
+
+5th Feb-28th Feb(4 Projects)
+Goals:
+Every Week-1 Projects
+
+7 hr/day-Solving Kaggle Use-Cases
+
+5  hr/day-Interview Preparation and CV Updating
+
+1st March-31st March(4 Projects+1 Deep Learning Projects+Deployment Services+Ensemble Techniques)
+
+
+Focus:-
+
+Creating A Github Pages
+
+Timing From 5th Dec(12 hr/day)
+
+6:00pm-10:30pm(4.5 hr)-Most Productive Hour
+
+1:30pm-3:00pm(1.5 hr)
+
+3:30pm-5:00pm(1.5 hr)
+
+5:30pm-9:00pm-Most Productive Hour(3.5 hr)
+
+10:00pm-12:00am( 2 hr)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

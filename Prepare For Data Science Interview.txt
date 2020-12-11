@@ -1,0 +1,11 @@
+1.How to Prepare for Data Science Interview
+
+1.Know the algorithm 100% when you are telling about it.
+
+2.Which algorithms to apply in what usecase is paramount to  answer
+  1.Impact Of Presence Of Outliers
+  2.Explaining it properly
+  3.Impacts of Imbalanced Dataset
+ 
+3.Explain LifeCycle Of Data Science Projects.
+  1.Difficulty Faced in every pipelines of the Project

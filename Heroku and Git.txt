@@ -1,0 +1,31 @@
+1.Git Installation
+2.Heroku Account
+3.Heroku CLI
+
+Git helps us to find maintain all the version
+Remove Mongodb
+
+web: gunicorn app:app
+	      Filename:Object
+
+git init
+git status
+git add .
+git status
+git commit -m "initial commit"
+git status
+git config --global user.email "asiftandel22@gmail.com"
+git config --global user.name "asif"
+
+Go to Heroku CLI in git and it will reverse to Website
+
+Make sure that You are in same folder
+
+heroku create
+
+git remote -v
+
+git push heroku 
+
+to check the logs of the heroku process
+heroku logs --tail

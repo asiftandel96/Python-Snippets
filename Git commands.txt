@@ -1,0 +1,6 @@
+# git init
+# git add .
+# git commit -m "initial commit"
+# heroku create
+# git remote -v
+# git push heroku master

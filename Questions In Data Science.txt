@@ -1,0 +1,5 @@
+Questions:-
+Doubt:-
+1.DataFrame Styling
+2.Multi-Index in Pandas DataFrame
+3.What is the Difference between Tidy Data,Wide and Panel Data.

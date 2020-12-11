@@ -1,0 +1,218 @@
+Linear Regression Mathematical Intuition:
+
+What is Linear Regression:-
+It describe the relationship between dependent features and Independent features
+
+First we discuss about the formula of simple linear regression
+y=mx+c
+where m=slope and c=intercept
+
+Suppose we consider price as the dependent feature and size as the independent and we draw a line to predict the price of the house based on the size
+Here we use simple linear regression.
+Now we got the linear relationship between price and size.But are We sure that It will provide great accuracy for test data? So We can check it by using difference between actual and predicted points which is called as residual or error.So we are squaring all the values and which one has the minimum value is the best fit line.(m&c) 
+
+How we choose our best fit line?(Using Cost Function)
+We take different m & c values to determine cost function but the major disadvantages of the cost function is how much slope and intercept we will calculate.So Based on that concept We conclude to a concept called Gradient Descent which has different m values and which one has slope=0 will lead to global minima and the algorithms will understand that We should stop our training and we got the best fit line.
+
+Ridge and Lasso Regression:(Regularization Techniques)
+
+The main aim of the Ridge Regression is to reduce the overfitting problem of the Machine Learning Algorithms.The basic difference between formula is
+lambda * (slope)2.In simple linear regression when the slope is 0 we stop but because of the overfitting condition we tend to reduce the slope or make it to approx 0 (not 0 exactly) to minimize variance but high bias is possible(but as overfitting give us low bias and high variance)as we need  a generalized model
+
+The main aim of the Lasso Regression is to shrink the coefficients to 0.It helps in the Feature selection process where our coefficients greater than 0 will be kept and Other will be ignored.Here we are taking |Slope|-magnitude of the parameters.
+
+Machine-Learning-Bias and Variance(In-Depth Intuition)
+
+For a Underfitting Condition,We have High Bias and High Variance(High error in the training data as well as in the testing data)
+
+for a Overfitting Condition,We have Low Bias and High Variance(Low error in the training data and High error in the testing data)
+
+for a Generalized model,we should have Low Bias and Low Variance
+
+R Squared and Adjusted R Square:-
+
+R2=1-SSres/SStotal where SSres=Sum of squared residuals and SStotal=Sum of Average Total
+
+R2 Square - How well our independent feature is explained by dependent Features
+R2 Square range between 0 to 1.If R2 Square>0.6 we can consider it a Good Model.but there is a major disadvantages in R2 square is that If the independent variable is added R2 Square value increases irrespective of the fact that it is important or not to the target variables.So we have Adjusted R2 Square value.It will only increase when the independent  features has importance for the target variables otherwise It will penalize the independent variables 
+
+
+Hypothesis Testing:-
+What is Hypothesis Testing?
+A statistical hypothesis is an assumption about a population parameter. This assumption may or may not be true. Hypothesis testing refers to the formal procedures used by statisticians to accept or reject statistical hypotheses.
+
+Statistical Hypotheses
+The best way to determine whether a statistical hypothesis is true would be to examine the entire population. Since that is often impractical, researchers typically examine a random sample from the population. If sample data are not consistent with the statistical hypothesis, the hypothesis is rejected.
+
+There are two types of statistical hypotheses.
+
+Null hypothesis. The null hypothesis, denoted by Ho, is usually the hypothesis that sample observations result purely from chance.
+Alternative hypothesis. The alternative hypothesis, denoted by H1 or Ha, is the hypothesis that sample observations are influenced by some non-random cause.
+For example, suppose we wanted to determine whether a coin was fair and balanced. A null hypothesis might be that half the flips would result in Heads and half, in Tails. The alternative hypothesis might be that the number of Heads and Tails would be very different. Symbolically, these hypotheses would be expressed as
+
+Ho: P = 0.5
+Ha: P ≠ 0.5
+
+Suppose we flipped the coin 50 times, resulting in 40 Heads and 10 Tails. Given this result, we would be inclined to reject the null hypothesis. We would conclude, based on the evidence, that the coin was probably not fair and balanced.
+
+Can We Accept the Null Hypothesis?
+Some researchers say that a hypothesis test can have one of two outcomes: you accept the null hypothesis or you reject the null hypothesis. Many statisticians, however, take issue with the notion of "accepting the null hypothesis." Instead, they say: you reject the null hypothesis or you fail to reject the null hypothesis.
+
+Why the distinction between "acceptance" and "failure to reject?" Acceptance implies that the null hypothesis is true. Failure to reject implies that the data are not sufficiently persuasive for us to prefer the alternative hypothesis over the null hypothesis.
+
+Hypothesis Tests
+Statisticians follow a formal process to determine whether to reject a null hypothesis, based on sample data. This process, called hypothesis testing, consists of four steps.
+
+State the hypotheses. This involves stating the null and alternative hypotheses. The hypotheses are stated in such a way that they are mutually exclusive. That is, if one is true, the other must be false.
+Formulate an analysis plan. The analysis plan describes how to use sample data to evaluate the null hypothesis. The evaluation often focuses around a single test statistic.
+Analyze sample data. Find the value of the test statistic (mean score, proportion, t statistic, z-score, etc.) described in the analysis plan.
+Interpret results. Apply the decision rule described in the analysis plan. If the value of the test statistic is unlikely, based on the null hypothesis, reject the null hypothesis.
+Decision Errors
+Two types of errors can result from a hypothesis test.
+
+Type I error. A Type I error occurs when the researcher rejects a null hypothesis when it is true. The probability of committing a Type I error is called the significance level. This probability is also called alpha, and is often denoted by α.
+Type II error. A Type II error occurs when the researcher fails to reject a null hypothesis that is false. The probability of committing a Type II error is called Beta, and is often denoted by β. The probability of not committing a Type II error is called the Power of the test.
+Decision Rules
+The analysis plan includes decision rules for rejecting the null hypothesis. In practice, statisticians describe these decision rules in two ways - with reference to a P-value or with reference to a region of acceptance.
+
+P-value. The strength of evidence in support of a null hypothesis is measured by the P-value. Suppose the test statistic is equal to S. The P-value is the probability of observing a test statistic as extreme as S, assuming the null hypothesis is true. If the P-value is less than the significance level, we reject the null hypothesis.
+Region of acceptance. The region of acceptance is a range of values. If the test statistic falls within the region of acceptance, the null hypothesis is not rejected. The region of acceptance is defined so that the chance of making a Type I error is equal to the significance level.
+The set of values outside the region of acceptance is called the region of rejection. If the test statistic falls within the region of rejection, the null hypothesis is rejected. In such cases, we say that the hypothesis has been rejected at the α level of significance.
+
+These approaches are equivalent. Some statistics texts use the P-value approach; others use the region of acceptance approach. On this website, we tend to use the region of acceptance approach.
+
+P-value,T-test,Anova Test,Chi Square Test and When to use That?
+
+If we have one categorical Feature then we apply One Sample Proportion Test
+
+If we have two categorical Feature then we apply Chi Square Test
+
+If we have one continous feature we apply T-test
+
+two continous feature=Correlation Test
+
+If one categories variables-more than Two class in it we apply Anova Test
+
+Chi Square Test Of Independence:-
+Evaluating the relationship between two categorical variables
+
+Chi Square Test Of Independence Process:-
+1)Define Null and Alternate Hypothesis
+2)State Alpha
+3)Calculate Degree of Freedom
+4)State Decision Rule
+5)Calculate Test Statistic
+6)State Results
+7)State Conclusion
+
+Population
+e.g Avg height of all the people in the state
+-Population Mean
+Sample-Sample Mean
+E.g Exit Poll
+
+Population Mean < Sample Mean
+As Sample Mean Increases It will be equal to Population Mean
+
+Random Variables-Discrete and Continous Variables
+
+Discrete Variable- Whole Number e.g No of Bank Account of a Person
+
+Continous Variable- Within a range of values we can have any values for e.g Height of a Person
+
+Guassian Distribution/Normal Distribution
+
+Standardization Vs Normalization
+
+Normalization
+
+Scaling down the value between 0 to 1
+
+Standardization
+
+Scaling down the value based on Standard Normal Distribution
+
+
+Which Algorithms Need Feature Scaling:-
+Linear Regression
+Logistic Regression
+KNN Algorithms
+k-means Clustering
+
+Deep Learning Techniques mostly use MinMax Scaler(Normalization e.g CNN)
+
+“Rescaling” a vector means to add or subtract a constant and then multiply or divide by a constant, as you would do to change the units of measurement of the data, for example, to convert a temperature from Celsius to Fahrenheit.
+
+“Normalizing” a vector most often means dividing by a norm of the vector. It also often refers to rescaling by the minimum and range of the vector, to make all the elements lie between 0 and 1 thus bringing all the values of numeric columns in the dataset to a common scale.
+
+“Standardizing” a vector most often means subtracting a measure of location and dividing by a measure of scale. For example, if the vector contains random values with a Gaussian distribution, you might subtract the mean and divide by the standard deviation, thereby obtaining a “standard normal” random variable with mean 0 and standard deviation 1.
+
+After reading this post you will know:
+
+Why should you standardize/normalize/scale your data
+How to standardize your numeric attributes to have a 0 mean and unit variance using standard scalar
+How to normalize your numeric attributes between the range of 0 and 1 using min-max scalar
+How to normalize using robust scalar
+When to choose standardization or normalization
+Let’s get started.
+
+Why Should You Standardize / Normalize Variables:
+Standardization:
+Standardizing the features around the center and 0 with a standard deviation of 1 is important when we compare measurements that have different units. Variables that are measured at different scales do not contribute equally to the analysis and might end up creating a bais.
+
+For example, A variable that ranges between 0 and 1000 will outweigh a variable that ranges between 0 and 1. Using these variables without standardization will give the variable with the larger range weight of 1000 in the analysis. Transforming the data to comparable scales can prevent this problem. Typical data standardization procedures equalize the range and/or data variability.
+
+Normalization:
+Similarly, the goal of normalization is to change the values of numeric columns in the dataset to a common scale, without distorting differences in the ranges of values. For machine learning, every dataset does not require normalization. It is required only when features have different ranges.
+
+For example, consider a data set containing two features, age, and income(x2). Where age ranges from 0–100, while income ranges from 0–100,000 and higher. Income is about 1,000 times larger than age. So, these two features are in very different ranges. When we do further analysis, like multivariate linear regression, for example, the attributed income will intrinsically influence the result more due to its larger value. But this doesn’t necessarily mean it is more important as a predictor. So we normalize the data to bring all the variables to the same range.
+
+When Should You Use Normalization And Standardization:
+Normalization is a good technique to use when you do not know the distribution of your data or when you know the distribution is not Gaussian (a bell curve). Normalization is useful when your data has varying scales and the algorithm you are using does not make assumptions about the distribution of your data, such as k-nearest neighbors and artificial neural networks.
+
+Standardization assumes that your data has a Gaussian (bell curve) distribution. This does not strictly have to be true, but the technique is more effective if your attribute distribution is Gaussian. Standardization is useful when your data has varying scales and the algorithm you are using does make assumptions about your data having a Gaussian distribution, such as linear regression, logistic regression, and linear discriminant analysis.
+
+Assumptions of Linear Regression:-
+
+1)Linear Relationship between the features and target:
+
+According to this assumption there is linear relationship between the features and target.Linear regression captures only linear relationship.This can be validated by plotting a scatter plot between the features and the target.
+
+2)Little or no Multicollinearity between the features:
+Multicollinearity is a state of very high inter-correlations or inter-associations among the independent variables.It is therefore a type of disturbance in the data if present weakens the statistical power of the regression model.Pair plots and heatmaps(correlation matrix) can be used for identifying highly correlated features.
+
+Why removing highly correlated features is important?
+The interpretation of a regression coefficient is that it represents the mean change in the target for each unit change in an feature when you hold all of the other features constant. However, when features are correlated, changes in one feature in turn shifts another feature/features. The stronger the correlation, the more difficult it is to change one feature without changing another. It becomes difficult for the model to estimate the relationship between each feature and the target independently because the features tend to change in unison.
+How multicollinearity can be treated?
+If we have 2 features which are highly correlated we can drop one feature or combine the 2 features to form a new feature,which can further be used for prediction.
+3.Homoscedasticity Assumption:
+Homoscedasticity describes a situation in which the error term (that is, the “noise” or random disturbance in the relationship between the features and the target) is the same across all values of the independent variables.A scatter plot of residual values vs predicted values is a goodway to check for homoscedasticity.There should be no clear pattern in the distribution and if there is a specific pattern,the data is heteroscedastic.
+
+
+4.Normal distribution of error terms:
+The fourth assumption is that the error(residuals) follow a normal distribution.However, a less widely known fact is that, as sample sizes increase, the normality assumption for the residuals is not needed. More precisely, if we consider repeated sampling from our population, for large sample sizes, the distribution (across repeated samples) of the ordinary least squares estimates of the regression coefficients follow a normal distribution. As a consequence, for moderate to large sample sizes, non-normality of residuals should not adversely affect the usual inferential procedures. This result is a consequence of an extremely important result in statistics, known as the central limit theorem.
+Normal distribution of the residuals can be validated by plotting a q-q plot.
+
+5.Little or No autocorrelation in the residuals:
+Autocorrelation occurs when the residual errors are dependent on each other.The presence of correlation in error terms drastically reduces model’s accuracy.This usually occurs in time series models where the next instant is dependent on previous instant.
+Autocorrelation can be tested with the help of Durbin-Watson test.The null hypothesis of the test is that there is no serial correlation. The Durbin-Watson test statistics is defined as:
+Image for post
+The test statistic is approximately equal to 2*(1-r) where r is the sample autocorrelation of the residuals. Thus, for r == 0, indicating no serial correlation, the test statistic equals 2. This statistic will always be between 0 and 4. The closer to 0 the statistic, the more evidence for positive serial correlation. The closer to 4, the more evidence for negative serial correlation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
